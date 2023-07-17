@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.table_row{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    border: black;
+    margin-top: 5px;
+   
+
+
+}
+.item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 20vw;
+    padding: 5px 10px;
+
+    
+
+}
+#heading{
+    background-color: rgb(106, 187, 216);
+    font-size: large;
+    
+}
+#data:nth-of-type(odd){
+    margin-top: 5px;
+    background-color: rgb(237, 237, 193);
+}
+#data:nth-of-type(even){
+    background-color: rgb(167, 210, 208);
+    margin-top: 5px;
+
+}
